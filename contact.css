@@ -1,0 +1,165 @@
+#form{
+    width: 70%;
+}
+
+
+.my-form{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 20px auto;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.department{
+    padding: 20px 15px;
+    background-color: rgba(228, 228, 228, 0.814);
+    width: 30%;
+    display: block;
+}
+
+.divli{
+    display: block;
+    margin: 15px 0px;
+    text-transform: capitalize;
+}
+
+.divli span{
+    font-size: 15px;
+    padding: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: -0.2em;
+}
+
+.department a{
+    font-size: 14px;
+    color: rgb(5, 72, 168);
+    padding: 5px 0px;
+}
+.department a:hover{
+    text-decoration: underline;
+    color: rgb(3, 89, 209);
+
+}
+
+.department p{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.forform{
+    margin: 0px auto;
+    padding: 20px 15px;
+
+}
+form{
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    overflow: visible;
+    padding: 0px 30px;
+    box-shadow: none;
+    border-right: 4px dotted rgb(183, 182, 182);
+    
+}
+
+form sup{
+    color: blue;
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+}
+
+.field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: center;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 15px;
+    color: #777;
+  }
+  
+  .field input {
+    display: block;
+    min-width: 70%;
+    line-height: 1.5;
+    font-size: 14px;
+    border-radius: 0px;
+    border: 1.2px solid rgba(128, 128, 128, 0.638);
+  }
+  
+  input[type="submit"] {
+    display: block;
+    font-weight: 600;
+    padding: 6px 20px;
+    background-color:  transparent;
+    color: rgb(2, 55, 155);
+    cursor: pointer;
+    border: 2px solid rgb(2, 55, 155);
+    transition: .3s ease-in-out;
+    
+  }
+
+  input[type="submit"]:hover{
+    background:  rgb(1, 34, 100);
+    border: none;
+    color: white;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  input[type="reset"] {
+    display: block;
+    padding: 6px 30px;
+    border: 2px solid rgb(4, 38, 100);
+    color: black;
+
+
+  }
+
+.formicon{
+    display: none;
+    
+}
+
+.poly{
+display: none;
+  }
+
+
+  
+@media (max-width: 768px) {
+    .my-form{
+        display: block;
+    }
+
+
+
+    #form{
+        width: 100%;
+    }
+    
+    
+    
+    .department{
+        width: 100%;
+    }
+    
+
+    
+form{
+    border-right: none
+    
+}
+
+}
+
